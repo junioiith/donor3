@@ -30,7 +30,11 @@
 		</div><!-- /.container-fluid -->
 	</nav>
 
-	<?php include "sidebar.php"; ?>
+	<?php
+    $page = "dashboard";
+    echo '<p>' & $page & '</p>';
+    include "sidebar.php";
+  ?>
 
 	<div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">
 		<div class="row">
@@ -38,7 +42,7 @@
 				<li><a href="#">
 					<em class="fa fa-home"></em>
 				</a></li>
-				<li class="active">Dashboard</li>
+				<li class="active"><?php echo $page; ?></li>
 			</ol>
 		</div><!--/.row-->
 
