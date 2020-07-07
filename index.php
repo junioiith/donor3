@@ -32,7 +32,6 @@
 
 	<?php
     $page = "dashboard";
-    echo '<p>' & $page & '</p>';
     include "sidebar.php";
   ?>
 
@@ -42,7 +41,7 @@
 				<li><a href="#">
 					<em class="fa fa-home"></em>
 				</a></li>
-				<li class="active"><?php echo $page; ?></li>
+				<li class="active">Dashboard</li>
 			</ol>
 		</div><!--/.row-->
 
