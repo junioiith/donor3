@@ -30,7 +30,10 @@
 		</div><!-- /.container-fluid -->
 	</nav>
 
-	<?php include "sidebar.php"; ?>
+	<?php
+    $page = "dashboard";
+    include "sidebar.php";
+  ?>
 
 	<div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">
 		<div class="row">

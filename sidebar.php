@@ -16,10 +16,10 @@
     </div>
   </form>
   <ul class="nav menu">
-    <li class="active"><a href="index.html"><em class="fa fa-dashboard">&nbsp;</em> Dashboard</a></li>
-    <li><a href="darah.php"><em class="fa fa-calendar">&nbsp;</em> Darah</a></li>
-    <li><a href="pendonor.php"><em class="fa fa-bar-chart">&nbsp;</em> Pendonor</a></li>
-    <li><a href="donordarah.php"><em class="fa fa-toggle-off">&nbsp;</em> Donor Darah</a></li>
+    <li <?php echo ($page == "dashboard" ? 'class="active"' : ''); ?>><a href="index.html"><em class="fa fa-dashboard">&nbsp;</em> Dashboard</a></li>
+    <li <?php echo ($page == "darah" ? 'class="active"' : ''); ?>><a href="darah.php"><em class="fa fa-calendar">&nbsp;</em> Darah</a></li>
+    <li <?php echo ($page == "pendonor" ? 'class="active"' : ''); ?>><a href="pendonor.php"><em class="fa fa-bar-chart">&nbsp;</em> Pendonor</a></li>
+    <li <?php echo ($page == "donordarah" ? 'class="active"' : ''); ?>><a href="donordarah.php"><em class="fa fa-toggle-off">&nbsp;</em> Donor Darah</a></li>
     <li><a href="login.php"><em class="fa fa-power-off">&nbsp;</em> Logout</a></li>
   </ul>
 </div><!--/.sidebar-->
